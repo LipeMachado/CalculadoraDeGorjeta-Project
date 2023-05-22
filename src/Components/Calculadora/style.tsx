@@ -70,6 +70,13 @@ export const ButtonsContainer = styled.div`
     input[type="button"]{
         background-color: #00474B;
         color: #fff;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: #9FE8DF;
+            color: #00474B;
+        }
     }
 
     input#custom-tip {
@@ -111,6 +118,13 @@ export const ResultadosContainer = styled.div`
         padding-block: 0.5rem;
         text-transform: uppercase;
         border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #9FE8DF;
+            color: #00474B;
+        }
     }
 
     @media only screen and (min-width: 950px){
